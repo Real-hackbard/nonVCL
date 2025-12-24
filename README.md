@@ -1,5 +1,15 @@
 # nonVCL:
 
+</br>
+
+![Compiler](https://github.com/user-attachments/assets/a916143d-3f1b-4e1f-b1e0-1067ef9e0401) ![Delphi-All Compiler Versions](https://github.com/user-attachments/assets/55096613-6860-412e-b4cd-860934e109b6)  
+![Components](https://github.com/user-attachments/assets/d6a7a7a4-f10e-4df1-9c4f-b4a1a8db7f0e) ![None](https://github.com/user-attachments/assets/30ebe930-c928-4aaf-a8e1-5f68ec1ff349)  
+![Discription](https://github.com/user-attachments/assets/4a778202-1072-463a-bfa3-842226e300af) ![nonVCL Collection](https://github.com/user-attachments/assets/9946689b-ec70-4032-8c86-361ee7ec722e)
+![Last Update](https://github.com/user-attachments/assets/e1d05f21-2a01-4ecf-94f3-b7bdff4d44dd) ![122025](https://github.com/user-attachments/assets/2123510b-f411-4624-a2fc-695ffb3c4b70)  
+![License](https://github.com/user-attachments/assets/ff71a38b-8813-4a79-8774-09a2f3893b48) ![Freeware](https://github.com/user-attachments/assets/1fea2bbf-b296-4152-badd-e1cdae115c43)  
+
+</br>
+
 ### Why is an empty Delphi application almost 300 KB - 3 MB in size?
 
 Because the [VCL](https://de.wikipedia.org/wiki/Visual_Component_Library) provides a generic interface for all sorts of functions of the [Win32 API](https://en.wikipedia.org/wiki/Windows_API). Take [OLE](https://en.wikipedia.org/wiki/OLE_Automation), for example. Most people hardly ever need an OLE interface in their application. However, Delphi, or rather Smart Compiling, doesn't allow these unnecessary parts to be omitted. This has led to XCL and other such feats.
