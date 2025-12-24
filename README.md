@@ -283,4 +283,13 @@ begin
 end.
 ```
 
+</br>
 
+This creates the dialog from the resource with ID 100. A window procedure is assigned, and the message loop is automatically started.
+
+What you can see fairly clearly here is the inclusion of the dialog template. This is done by including MAIN.RES. This compiled resource file is compiled from a "resource script" using the resource compiler ```BRCC32.EXE```.
+
+In our case, the script looks like this:
+```pascal
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+````
