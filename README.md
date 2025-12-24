@@ -2,7 +2,7 @@
 
 ### Why is an empty Delphi application almost 300 KB - 3 MB in size?
 
-Because the [VCL](https://de.wikipedia.org/wiki/Visual_Component_Library) provides a generic interface for all sorts of functions of the [Win32 API](https://en.wikipedia.org/wiki/Windows_API). Take OLE, for example. Most people hardly ever need an OLE interface in their application. However, Delphi, or rather Smart Compiling, doesn't allow these unnecessary parts to be omitted. This has led to XCL and other such feats.
+Because the [VCL](https://de.wikipedia.org/wiki/Visual_Component_Library) provides a generic interface for all sorts of functions of the [Win32 API](https://en.wikipedia.org/wiki/Windows_API). Take [OLE](https://en.wikipedia.org/wiki/OLE_Automation), for example. Most people hardly ever need an OLE interface in their application. However, Delphi, or rather Smart Compiling, doesn't allow these unnecessary parts to be omitted. This has led to XCL and other such feats.
 
 The fact that objects ([classes](https://docwiki.embarcadero.com/RADStudio/Sydney/en/Classes_and_Objects_(Delphi))) also store various pieces of information that are not vital to the actual program adds to the problem.
 
