@@ -222,7 +222,7 @@ begin
   //windowheight := windowtop + windowheight + ncm.iMenuHeight +
   //ncm.iCaptionHeight;
   //Windowleft := (deskw DIV 2) - (windowwidth DIV 2);
-  //8Windowtop := (deskh DIV 2) - (windowheight DIV 2);
+  //Windowtop := (deskh DIV 2) - (windowheight DIV 2);
   RegisterClassEx(wc);
     {mainwnd:=} CreateWindowEx(WS_EX_WINDOWEDGE OR WS_EX_CONTROLPARENT
     OR WS_EX_APPWINDOW,
