@@ -17,6 +17,9 @@ Let's look at some basics.
 To understand the window principle, we first need to move beyond TForms. Windows, in fact, gave the system its name. Every window has various properties that describe it. Windows recognizes two basic structures: the basic structure and the extended structure.
 
 ### Let's consider the basic structure.
+
+</br>
+
 ```pascal
 tagWNDCLASSA = packed record
   style: UINT;
@@ -32,8 +35,12 @@ tagWNDCLASSA = packed record
 end;
 ```
 
+</br>
+
 For simplicity, only the ANSI version is shown here. On NT platforms, corresponding Unicode (Wide) counterparts can be found. The structure is declared as ```TWndClass```.  
 The extended structure (“…Ex”), in which ```WINDOWS.PAS``` is declared as ```TWndClassEx```, can be seen here.
+
+</br>
 
 ```pascal
 tagWNDCLASSEXA = packed record
@@ -51,6 +58,8 @@ tagWNDCLASSEXA = packed record
   hIconSm: HICON;
 end;
 ```
+
+</br>
 
 As you can see, the two versions differ only in that the extended version requires the size of the structure to be specified and allows for the inclusion of a small icon.
 
@@ -80,6 +89,22 @@ begin
 end; {HLinkTest Example}
 ```
 
+</br>
+
+The final call to ```RegisterClassEx()``` or ```RegisterClass()``` registers the window class for the program instance and enables the call to ```CreateWindowEx()``` or ```CreateWindow()```.
+
+The above procedure is the initialization routine for a demonstration program I created. The goal is to show how to...
+
+1.Dialog templates are used.
+2.Custom window classes are integrated via dialog templates.
+3.Custom window classes are built.
+
+A typical window procedure:
+
+```pascal
+function WndProc(hWnd: HWND; uMsg: UINT; wParam: WPARAM;
+ lParam: LPARAM): LRESULT; stdcall;
+```
 
 
 
