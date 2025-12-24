@@ -294,3 +294,6 @@ In our case, the script looks like this:
 ```pascal
 LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 ````
+
+# Update Program list:
+* Window
