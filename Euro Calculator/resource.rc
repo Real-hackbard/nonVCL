@@ -1,0 +1,134 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOGEX 0, 0, 247, 241
+STYLE DS_NOFAILCREATE | DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Euro € - Calculator"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         101,9,61,115,90,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Currency",102,134,61,94,10
+    EDITTEXT        103,134,71,95,12,ES_AUTOHSCROLL
+    LTEXT           "Euro €",IDC_STATIC,134,91,75,10
+    EDITTEXT        104,134,101,95,12,ES_AUTOHSCROLL
+    CONTROL         "in foreign currency",110,"Button",BS_AUTORADIOBUTTON,134,
+                    120,70,10
+    CONTROL         "in €",111,"Button",BS_AUTORADIOBUTTON,206,120,27,10
+    PUSHBUTTON      "&Delete",109,165,211,65,20,WS_DISABLED,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Currency:",IDC_STATIC,15,181,35,8
+    EDITTEXT        105,15,191,115,12,ES_AUTOHSCROLL
+    LTEXT           "Course (1 € = ):",IDC_STATIC,165,181,45,10
+    EDITTEXT        106,165,191,65,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Edit",108,15,211,65,20,WS_DISABLED,
+                    WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "&Add",107,90,211,65,20,0,WS_EX_CLIENTEDGE
+    LTEXT           "Example: 1 € = x $",IDC_STATIC,34,151,60,10
+    GROUPBOX        "Edit List:",IDC_STATIC,3,168,240,70
+    GROUPBOX        "Calculate:",IDC_STATIC,3,51,240,115
+    PUSHBUTTON      "&Info",112,165,5,35,16
+    CTEXT           "Static",999,0,0,215,45,SS_CENTERIMAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    100, DIALOG
+    BEGIN
+        RIGHTMARGIN, 217
+        BOTTOMMARGIN, 181
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON    DISCARDABLE     "Euro.ico"
+2                       ICON    DISCARDABLE     "Euro.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// BINRES
+//
+
+KURSE                   BINRES  DISCARDABLE     "kurse.bin"
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
