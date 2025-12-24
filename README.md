@@ -57,7 +57,26 @@ As you can see, the two versions differ only in that the extended version requir
 Both structures describe a window class (not a class in the OOP sense) 😉
 To use the class, it must have at least a name ```lpszClassName```, the instance of the calling module usually ```hInstance``` in Delphi, and, in the extended version, the size of the structure.
 
-
+```pascal
+procedure initacomctl;
+var
+  wc: TWndClassEx;
+begin
+  wc.style := CS_HREDRAW OR CS_VREDRAW OR CS_GLOBALCLASS;
+  wc.cbSize := sizeof(TWNDCLASSEX);
+  wc.lpfnWndProc := @HyperlinkWndProc;
+  wc.cbClsExtra := 0;
+  wc.cbWndExtra := 0;
+  wc.hInstance := hInstance;
+  wc.hbrBackground := COLOR_WINDOW;
+  wc.lpszMenuName := NIL;
+  wc.lpszClassName := AHyperlink;
+  wc.hIcon := 0;
+  wc.hIconSm := 0;
+  wc.hCursor := 0;
+  RegisterClassEx(wc);
+end; {HLinkTest Example}
+```
 
 
 
