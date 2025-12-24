@@ -127,6 +127,7 @@ Messages that are not handled by the respective window procedure should be handl
 Result:=DefWindowProc(hWnd, uMsg, wParam, lParam);
 ```
 
+# Create a Window in 50 Kb:
 From all these assumptions, the following small program framework can be developed.
 
 This example creates a main window and a button within it. It also demonstrates how to intercept when the button is pressed. All of this is accomplished without using any dialog resources.
