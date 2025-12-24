@@ -32,8 +32,8 @@ tagWNDCLASSA = packed record
 end;
 ```
 
-For simplicity, only the ANSI version is shown here. On NT platforms, corresponding Unicode (Wide) counterparts can be found. The structure is declared as TWndClass.  
-The extended structure (“…Ex”), in which WINDOWS.PAS is declared as TWndClassEx, can be seen here.
+For simplicity, only the ANSI version is shown here. On NT platforms, corresponding Unicode (Wide) counterparts can be found. The structure is declared as ```TWndClass```.  
+The extended structure (“…Ex”), in which ```WINDOWS.PAS``` is declared as ```TWndClassEx```, can be seen here.
 
 
 
