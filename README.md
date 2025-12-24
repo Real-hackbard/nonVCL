@@ -57,6 +57,8 @@ As you can see, the two versions differ only in that the extended version requir
 Both structures describe a window class (not a class in the OOP sense) 😉
 To use the class, it must have at least a name ```lpszClassName```, the instance of the calling module usually ```hInstance``` in Delphi, and, in the extended version, the size of the structure.
 
+</br>
+
 ```pascal
 procedure initacomctl;
 var
