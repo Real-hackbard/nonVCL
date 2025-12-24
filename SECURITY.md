@@ -10,6 +10,7 @@ currently being supported with security updates.
 | Version | Program            |
 | ------- | ------------------ |
 | 1.0.x   | Window |
+| 1.0.x   | Euro Calculator |
 
 ## Reporting a Vulnerability
 
