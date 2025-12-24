@@ -35,6 +35,27 @@ end;
 For simplicity, only the ANSI version is shown here. On NT platforms, corresponding Unicode (Wide) counterparts can be found. The structure is declared as ```TWndClass```.  
 The extended structure (“…Ex”), in which ```WINDOWS.PAS``` is declared as ```TWndClassEx```, can be seen here.
 
+```pascal
+tagWNDCLASSEXA = packed record
+  cbSize: UINT;
+  style: UINT;
+  lpfnWndProc: TFNWndProc;
+  cbClsExtra: Integer;
+  cbWndExtra: Integer;
+  hInstance: HINST;
+  hIcon: HICON;
+  hCursor: HCURSOR;
+  hbrBackground: HBRUSH;
+  lpszMenuName: PAnsiChar;
+  lpszClassName: PAnsiChar;
+  hIconSm: HICON;
+end;
+```
+
+As you can see, the two versions differ only in that the extended version requires the size of the structure to be specified and allows for the inclusion of a small icon.
+
+Both structures describe a window class (not a class in the OOP sense) 😉
+To use the class, it must have at least a name ```lpszClassName```, the instance of the calling module usually ```hInstance``` in Delphi, and, in the extended version, the size of the structure.
 
 
 
