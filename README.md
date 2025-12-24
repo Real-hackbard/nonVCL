@@ -8,9 +8,9 @@ The fact that objects ([classes](https://docwiki.embarcadero.com/RADStudio/Sydne
 
 Of course, EXE files can be compressed or otherwise reduced in size, but the file size is generally still too large because the VCL library is also reduced in size.
 
-There's a big difference between creating an empty form that's ```3 megabytes``` in size and creating the same form in ```50 KB```, which is essentially the same without needing to compress it. The answer is simply nonVCL.
+There's a big difference between creating an empty form that's ```3 megabytes``` in size and creating the same form in ```50 KB```, which is essentially the same without needing to compress it. The answer is simply ```nonVCL```.
 
-The problem is that a nonVCL window has to be programmed completely by hand, which is seen in certain circles as the most difficult form of programming.
+The problem is that a ```nonVCL``` window has to be programmed completely by hand, which is seen in certain circles as the most difficult form of programming.
 
 Let's look at some basics.
 
