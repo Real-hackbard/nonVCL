@@ -239,6 +239,48 @@ begin
 end.
 ````
 
+This code creates an EXE file that is 54 kb under Delphi v22, without compression.
 
+</br>
+
+# Integrate dialog windows:
+If we now take a simple example of a program that has exactly the same function, but is based on a dialog template, the source code looks correspondingly simpler:
+
+```pascal
+program Dialog;
+uses windows, messages;
+
+{$WARNINGS OFF}
+{$HINTS OFF}
+{$R main.res} // The template goes here
+
+var
+  hdlg: DWORD = 0;
+
+function dlgfunc(hwnd: hwnd; umsg: dword; wparam: wparam;
+ lparam: lparam): bool; stdcall;
+begin
+  result := true;
+  CASE umsg OF
+    WM_CLOSE:
+      EndDialog(hWnd, 0);
+    WM_DESTROY:
+      PostQuitMessage(0);
+    WM_COMMAND:
+      IF hiword(wparam) = BN_CLICKED THEN BEGIN
+        CASE loword(wparam) OF
+          IDOK:
+            sendmessage(hwnd, WM_CLOSE, 0, 0);
+        end;
+      end;
+  else result := false;
+  end;
+end;
+
+begin
+  // The only new call to action here is:	
+  hdlg := DialogBoxParam(HInstance, MAKEINTRESOURCE(100), 0, @DlgFunc, 0);
+end.
+```
 
 
