@@ -307,3 +307,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 
 # Update Program list:
 * Window
+* Euro Calculator
