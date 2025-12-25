@@ -11,6 +11,7 @@ currently being supported with security updates.
 | ------- | ------------------ |
 | 1.0.x   | Window |
 | 1.0.x   | Euro Calculator |
+| 1.0.x   | File Crypter |
 
 ## Reporting a Vulnerability
 
