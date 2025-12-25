@@ -1,4 +1,4 @@
-![Delphi-7 Pro](https://github.com/user-attachments/assets/2d892a9f-737d-4a45-9fe0-37aab408ca81)# nonVCL:
+# nonVCL:
 
 </br>
 
