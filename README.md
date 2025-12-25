@@ -1,4 +1,4 @@
-# nonVCL:
+![Delphi-7 Pro](https://github.com/user-attachments/assets/2d892a9f-737d-4a45-9fe0-37aab408ca81)# nonVCL:
 
 </br>
 
@@ -7,6 +7,12 @@
 ![Discription](https://github.com/user-attachments/assets/4a778202-1072-463a-bfa3-842226e300af) ![nonVCL Collection](https://github.com/user-attachments/assets/9946689b-ec70-4032-8c86-361ee7ec722e)  
 ![Last Update](https://github.com/user-attachments/assets/e1d05f21-2a01-4ecf-94f3-b7bdff4d44dd) ![122025](https://github.com/user-attachments/assets/2123510b-f411-4624-a2fc-695ffb3c4b70)  
 ![License](https://github.com/user-attachments/assets/ff71a38b-8813-4a79-8774-09a2f3893b48) ![Freeware](https://github.com/user-attachments/assets/1fea2bbf-b296-4152-badd-e1cdae115c43)  
+
+</br>
+
+Recommended compiler for this section:  
+
+![Delphi-7 Pro](https://github.com/user-attachments/assets/d694645a-9959-47bd-be32-6707d06b2f0c)  ![Delphi-7 Enterprise](https://github.com/user-attachments/assets/576fc937-5c99-40ef-9c19-3957c686bf35)  ![Delphi-7 Science Edition 2020](https://github.com/user-attachments/assets/7e21dfba-f9a4-4871-aff0-a4f2ebe8941c)
 
 </br>
 
