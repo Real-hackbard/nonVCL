@@ -10,7 +10,7 @@
 
 </br>
 
-Recommended compiler for this section:  
+### Recommended compiler for this section:  
 
 ![Delphi-7 Pro](https://github.com/user-attachments/assets/d694645a-9959-47bd-be32-6707d06b2f0c)  ![Delphi-7 Enterprise](https://github.com/user-attachments/assets/576fc937-5c99-40ef-9c19-3957c686bf35)  ![Delphi-7 Science Edition 2020](https://github.com/user-attachments/assets/7e21dfba-f9a4-4871-aff0-a4f2ebe8941c)
 
