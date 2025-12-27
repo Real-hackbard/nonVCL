@@ -9,10 +9,11 @@ currently being supported with security updates.
 
 | Version | Program            |
 | ------- | ------------------ |
-| 1.0.x   | Window |
-| 1.0.x   | Euro Calculator |
-| 1.0.x   | File Crypter |
-| 1.0.x   | Ping |
+| 1.0.x   | :white_check_mark: Window |
+| 1.0.x   | :white_check_mark: Euro Calculator |
+| 1.0.x   | :white_check_mark: File Crypter |
+| 1.0.x   | :white_check_mark: Ping |
+| 1.0.x   | :white_check_mark: System Info |
 
 ## Reporting a Vulnerability
 
