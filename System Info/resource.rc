@@ -1,0 +1,126 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  0, 0, 425, 273
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+CAPTION "Template"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List1",102,"SysListView32",LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | WS_BORDER | 
+                    WS_TABSTOP,5,70,75,135
+    EDITTEXT        103,90,65,220,140,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY | NOT WS_VISIBLE | WS_VSCROLL
+    PUSHBUTTON      "&Info",101,145,5,35,15
+    CTEXT           "Static",999,0,5,186,55,SS_CENTERIMAGE
+    LISTBOX         106,235,75,171,70,LBS_SORT | LBS_NOINTEGRALHEIGHT | NOT 
+                    WS_VISIBLE | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Prozess &beenden",105,225,210,70,15
+    CONTROL         "List1",107,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,315,24,83,51
+    CONTROL         "List1",108,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,331,160,79,46
+    PUSHBUTTON      "&Details",109,225,235,70,15,NOT WS_VISIBLE
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON    DISCARDABLE     "Betriebssystem.ico"
+4                       ICON    DISCARDABLE     "Festplatten.ico"
+6                       ICON    DISCARDABLE     "Prozesse.ico"
+8                       ICON    DISCARDABLE     "Speicher.ico"
+5                       ICON    DISCARDABLE     "SysInfo.ico"
+7                       ICON    DISCARDABLE     "CPU.ico"
+3                       ICON    DISCARDABLE     "WinLogo.ico"
+2                       ICON    DISCARDABLE     "WinLogo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    100, DIALOG
+    BEGIN
+        RIGHTMARGIN, 424
+        BOTTOMMARGIN, 220
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
