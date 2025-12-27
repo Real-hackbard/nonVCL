@@ -314,3 +314,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Euro Calculator](https://github.com/Real-hackbard/nonVCL/tree/main/Euro%20Calculator)
 * [FileCrypter](https://github.com/Real-hackbard/nonVCL/tree/main/FileCrypter)
 * [Ping](https://github.com/Real-hackbard/nonVCL/tree/main/Ping)
+* [System Info](https://github.com/Real-hackbard/nonVCL/tree/main/System%20Info)
