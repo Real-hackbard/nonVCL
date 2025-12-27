@@ -26,7 +26,7 @@ There's a big difference between creating an empty form that's ```3 megabytes```
 
 The problem is that a ```nonVCL``` window has to be programmed completely by hand, which is seen in certain circles as the most difficult form of programming.
 
-Let's look at some basics.
+# Let's look at some basics.
 
 To understand the window principle, we first need to move beyond TForms. Windows, in fact, gave the system its name. Every window has various properties that describe it. Windows recognizes two basic structures: the basic structure and the extended structure.
 
