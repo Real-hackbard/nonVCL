@@ -17,6 +17,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: IP Monitor | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Get MAC | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Window Info | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Net Send | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
