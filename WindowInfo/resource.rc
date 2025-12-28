@@ -1,0 +1,133 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  0, 0, 222, 210
+STYLE DS_SYSMODAL | DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "WindowInfo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            203,101,5,55,20,20
+    RTEXT           "Fensterklasse:",IDC_WNDCLS,35,57,45,10
+    RTEXT           "Handle:",IDC_HNDL,35,78,45,8
+    RTEXT           "ProzessID:",IDC_PRCID,35,118,45,10
+    RTEXT           "Titel:",IDC_CPTN,35,179,45,8
+    LTEXT           "",102,84,55,131,15,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "",103,84,75,131,15,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "",105,84,115,131,15,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "",107,84,174,131,15,SS_CENTERIMAGE | SS_SUNKEN
+    CHECKBOX        "sichtbar:",108,85,195,43,10,BS_LEFTTEXT | BS_FLAT | 
+                    WS_GROUP
+    CHECKBOX        "aktiviert:",109,151,195,39,10,BS_LEFTTEXT | BS_FLAT | 
+                    WS_GROUP
+    LTEXT           "",106,84,155,131,15,SS_CENTERIMAGE | SS_SUNKEN
+    RTEXT           "ThreadID:",IDC_WNDCLS,35,158,45,10
+    LTEXT           "",104,84,95,131,15,SS_CENTERIMAGE | SS_SUNKEN
+    RTEXT           "ID:",IDC_ID,35,97,45,10
+    CTEXT           "Static",999,15,5,150,35,SS_CENTERIMAGE
+    PUSHBUTTON      "&Info",110,165,5,40,15
+    LTEXT           "",111,84,135,131,15,SS_CENTERIMAGE | SS_SUNKEN
+    RTEXT           "Anwendung:",IDC_WNDCLS,35,137,45,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+200                     ICON    DISCARDABLE     "window.ico"
+202                     ICON    DISCARDABLE     "IconBase.ico"
+203                     ICON    DISCARDABLE     "IconDown.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    100, DIALOG
+    BEGIN
+        RIGHTMARGIN, 199
+        BOTTOMMARGIN, 199
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+301                     CURSOR  DISCARDABLE     "CursDrag.cur"
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
