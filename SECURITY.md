@@ -7,8 +7,8 @@ currently being supported with security updates.
 
 ### Update list Content:
 
-| Version | Program            |
-| ------- | ------------------ |
+| Version | Program List       |
+| :------ | :----------------- |
 | 1.0.x   | :white_check_mark: Window |
 | 1.0.x   | :white_check_mark: Euro Calculator |
 | 1.0.x   | :white_check_mark: File Crypter |
