@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2010-09-13 16:59:44.859.pas,D:\Programmierung\Delphi\Programme\GetMAC\GUI\source\Unit1.pas=D:\Programmierung\Delphi\Programme\GetMAC\GUI\source\units\MpuMAC.pas</Transaction>
+    <Transaction>2010-09-13 17:27:57.468.pas,D:\Programmierung\Delphi\Programme\GetMAC\GUI\source\units\MpuMAC.pas=D:\Programmierung\Delphi\Programme\GetMAC\GUI\source\units\MpuIPHelpers.pas</Transaction>
+  </Transactions>
+</BorlandProject>
