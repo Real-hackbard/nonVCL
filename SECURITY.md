@@ -8,7 +8,7 @@ currently being supported with security updates.
 ### Update list Content:
 
 | Version: | Program List:       | Compiler Version:        |
-| :------ | :----------------- |
+| :------ | :----------------- | :----------------- |
 | 1.0.x   | :white_check_mark: Window | Delphi Alexandria |
 | 1.0.x   | :white_check_mark: Euro Calculator | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: File Crypter | Delphi 7 Pro. |
