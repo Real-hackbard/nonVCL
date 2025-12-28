@@ -7,14 +7,14 @@ currently being supported with security updates.
 
 ### Update list Content:
 
-| Version | Program List       |
+| Version: | Program List:       | Compiler Version:        |
 | :------ | :----------------- |
-| 1.0.x   | :white_check_mark: Window |
-| 1.0.x   | :white_check_mark: Euro Calculator |
-| 1.0.x   | :white_check_mark: File Crypter |
-| 1.0.x   | :white_check_mark: Ping |
-| 1.0.x   | :white_check_mark: System Info |
-| 1.0.x   | :white_check_mark: IP Monitor |
+| 1.0.x   | :white_check_mark: Window | Delphi Alexandria |
+| 1.0.x   | :white_check_mark: Euro Calculator | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: File Crypter | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Ping | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: System Info | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: IP Monitor | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
