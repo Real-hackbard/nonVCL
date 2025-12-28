@@ -14,6 +14,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: File Crypter |
 | 1.0.x   | :white_check_mark: Ping |
 | 1.0.x   | :white_check_mark: System Info |
+| 1.0.x   | :white_check_mark: IP Monitor |
 
 ## Reporting a Vulnerability
 
