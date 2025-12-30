@@ -19,6 +19,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Window Info | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Net Send | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Show Error Message | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: DelFileOnReboot | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
