@@ -320,3 +320,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Window Info](https://github.com/Real-hackbard/nonVCL/tree/main/WindowInfo)
 * [Net Send](https://github.com/Real-hackbard/nonVCL/tree/main/NetSend)
 * [ShowErrorMsg](https://github.com/Real-hackbard/nonVCL/tree/main/ShowErrorMsg)
+* [DelFileOnReboot](https://github.com/Real-hackbard/nonVCL/tree/main/DelFileOnReboot)
