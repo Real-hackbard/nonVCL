@@ -1,0 +1,156 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOGEX 0, 0, 155, 181
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "What Color"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            3,106,5,45,20,20
+    LTEXT           "Red:",IDC_STATIC,45,45,19,10
+    RTEXT           "",101,69,45,30,10,SS_SUNKEN
+    LTEXT           "Green:",IDC_STATIC,45,61,19,10
+    RTEXT           "",102,69,61,30,10,SS_SUNKEN
+    LTEXT           "Blue:",IDC_STATIC,45,74,19,10
+    RTEXT           "",103,69,74,30,10,SS_SUNKEN
+    LTEXT           "",104,105,45,45,40,SS_SUNKEN,WS_EX_TRANSPARENT
+    COMBOBOX        109,45,109,105,41,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Select Color",108,45,128,105,20,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Copy",107,45,154,105,20,0,WS_EX_CLIENTEDGE
+    LTEXT           "Color Picker 1.0",111,0,0,155,40,SS_CENTERIMAGE
+    PUSHBUTTON      "&Info",112,115,5,35,15
+    EDITTEXT        105,45,89,105,12,ES_AUTOHSCROLL | ES_READONLY
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON    DISCARDABLE     "rgb.ico"
+2                       ICON    DISCARDABLE     "IconBase.ico"
+3                       ICON    DISCARDABLE     "IconDown.ico"
+4                       ICON    DISCARDABLE     "MP.ico"
+5                       ICON    DISCARDABLE     "rgb.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    100, DIALOG
+    BEGIN
+        RIGHTMARGIN, 105
+        BOTTOMMARGIN, 155
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+400 ACCELERATORS DISCARDABLE 
+BEGIN
+    "C",            ID_ACCEL_COPY,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+1                       CURSOR  DISCARDABLE     "CursDrag.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+100 DLGINIT
+BEGIN
+    109, 0x403, 2, 0
+0x0031, 
+    109, 0x403, 2, 0
+0x0032, 
+    109, 0x403, 2, 0
+0x0033, 
+    0
+END
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
