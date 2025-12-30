@@ -321,3 +321,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Net Send](https://github.com/Real-hackbard/nonVCL/tree/main/NetSend)
 * [ShowErrorMsg](https://github.com/Real-hackbard/nonVCL/tree/main/ShowErrorMsg)
 * [DelFileOnReboot](https://github.com/Real-hackbard/nonVCL/tree/main/DelFileOnReboot)
+* [Color Picker](https://github.com/Real-hackbard/nonVCL/tree/main/Color%20Picker)
