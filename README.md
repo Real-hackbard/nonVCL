@@ -322,3 +322,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [ShowErrorMsg](https://github.com/Real-hackbard/nonVCL/tree/main/ShowErrorMsg)
 * [DelFileOnReboot](https://github.com/Real-hackbard/nonVCL/tree/main/DelFileOnReboot)
 * [Color Picker](https://github.com/Real-hackbard/nonVCL/tree/main/Color%20Picker)
+* [Enum Process](https://github.com/Real-hackbard/nonVCL/tree/main/EnumProcesses)
