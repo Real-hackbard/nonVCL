@@ -327,3 +327,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Enum Process](https://github.com/Real-hackbard/nonVCL/tree/main/EnumProcesses)
 * [Enum Windows](https://github.com/Real-hackbard/nonVCL/tree/main/EnumWindows)
 * [Password Recover](https://github.com/Real-hackbard/nonVCL/tree/main/Password%20Recover)
+* [DLL Exports](https://github.com/Real-hackbard/nonVCL/tree/main/DLL%20Exports)
