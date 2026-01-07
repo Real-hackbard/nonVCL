@@ -28,6 +28,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: SFX Creator & Stub | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Logged On | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Execute Form | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Audio Player | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
