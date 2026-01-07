@@ -337,3 +337,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [SFX Creator & Stub](https://github.com/Real-hackbard/nonVCL/tree/main/SFX%20Creator%20%26%20Stub)
 * [LoggedOn](https://github.com/Real-hackbard/nonVCL/tree/main/LoggedOn)
 * [Execute Form](https://github.com/Real-hackbard/nonVCL/tree/main/Execute%20Form)
+* [Audio Player](https://github.com/Real-hackbard/nonVCL/tree/main/Audio%20Player)
