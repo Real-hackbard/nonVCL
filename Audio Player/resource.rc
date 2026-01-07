@@ -1,0 +1,149 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+//#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  0, 0, 217, 271
+STYLE DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Audio-Player"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Open",109,73,110,38,15
+    PUSHBUTTON      "&Start",104,50,90,38,15
+    PUSHBUTTON      "&Pause",105,90,90,38,15
+    PUSHBUTTON      "S&top",106,130,90,38,15
+    PUSHBUTTON      "&Forward",107,170,90,38,15
+    CONTROL         "&MP3 / WAV",108,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,15,112,51,10
+    CONTROL         "&CD",110,"Button",BS_AUTORADIOBUTTON,117,112,25,10
+    CONTROL         "&Repeat",111,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    150,112,53,10
+    PUSHBUTTON      "&Back",103,10,90,38,15
+    CONTROL         "Slider1",102,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | 
+                    WS_DISABLED | WS_TABSTOP,12,75,195,12
+    CONTROL         "&Use playlist",112,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,132,70,10
+    PUSHBUTTON      "Play&liste",116,169,139,35,12,WS_DISABLED
+    LISTBOX         113,11,154,195,87,LBS_NOINTEGRALHEIGHT | WS_DISABLED | 
+                    WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Info",101,175,5,38,15,NOT WS_TABSTOP
+    GROUPBOX        "",-1,4,50,210,79
+    CTEXT           "Static",999,0,0,170,40,SS_CENTERIMAGE | NOT WS_GROUP
+    GROUPBOX        "",115,4,132,210,124
+    LTEXT           "",114,11,243,195,10,SS_SUNKEN
+    CONTROL         "",118,"Static",SS_LEFTNOWORDWRAP | SS_CENTERIMAGE | 
+                    SS_SUNKEN | WS_GROUP,11,58,195,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON    DISCARDABLE     "Audio.ico"
+2                       ICON    DISCARDABLE     "Audio.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+200 MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Add",                  201
+        MENUITEM "Remove",               202
+        MENUITEM "Delete",               205
+        MENUITEM SEPARATOR
+        MENUITEM "up",                   206
+        MENUITEM "down",                 207
+        MENUITEM SEPARATOR
+        MENUITEM "Load",                 203
+        MENUITEM "Save",                 204
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    100, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 252
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
