@@ -338,3 +338,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [LoggedOn](https://github.com/Real-hackbard/nonVCL/tree/main/LoggedOn)
 * [Execute Form](https://github.com/Real-hackbard/nonVCL/tree/main/Execute%20Form)
 * [Audio Player](https://github.com/Real-hackbard/nonVCL/tree/main/Audio%20Player)
+* [Clipboard Viewer](https://github.com/Real-hackbard/nonVCL/tree/main/Clipboard%20Viewer)
