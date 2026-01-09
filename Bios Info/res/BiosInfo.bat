@@ -1,0 +1,1 @@
+BRCC32.EXE -foBiosInfo.res BiosInfo.rc

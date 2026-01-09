@@ -1,0 +1,37 @@
+LANGUAGE 0x0000 0x0000
+
+#define MANIFEST  24
+
+#define RES_MAINICON_ID  1
+#define RES_MANIFEST_ID  1
+
+RES_MAINICON_ID  ICON      "BiosInfo.ico"
+
+RES_MANIFEST_ID  MANIFEST  "BiosInfo.exe.manifest"
+
+VS_VERSION_INFO  VERSIONINFO
+  FILEVERSION    1,0,0,0
+  PRODUCTVERSION 1,0,0,0
+  FILEFLAGSMASK  0x3fL
+  FILEFLAGS      0x0L
+  FILEOS         0x40004L
+  FILETYPE       0x2L
+  FILESUBTYPE    0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "00000000"
+    BEGIN
+      VALUE "FileDescription",  "BIOS-Info\0"
+      VALUE "FileVersion",      "1.0\0"
+      VALUE "LegalCopyright",   "Copyright (c) 2005 Your Name\0"
+      VALUE "OriginalFilename", "BiosInfo.exe\0"
+      VALUE "ProductName",      "BiosHelp\0"
+      VALUE "ProductVersion",   "1.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0000, 0x0000
+  END
+END

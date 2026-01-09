@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+	<assemblyIdentity
+		name="NicoDE.Delphi.BiosInfo"
+		version="3.0.0.0"
+		type="win32"
+		processorArchitecture="X86"
+	/>
+	<description>BIOS-Info (BiosHelp Sample)</description>
+	<dependency>
+		<dependentAssembly>
+			<assemblyIdentity
+				name="Microsoft.Windows.Common-Controls"
+				version="6.0.0.0"
+				type="win32"
+				processorArchitecture="X86"
+				publicKeyToken="6595b64144ccf1df"
+				language="*"
+			/>
+		</dependentAssembly>
+	</dependency>
+</assembly>
