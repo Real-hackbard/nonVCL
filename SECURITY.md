@@ -32,6 +32,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Clipboard Viewer | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: IP-Address | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Bios Info | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Listview | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
