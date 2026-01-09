@@ -1,0 +1,56 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+100 MENU DISCARDABLE 
+BEGIN
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Big symbols",               101
+        MENUITEM "Small symbols",              102
+        MENUITEM "List",                       103
+        MENUITEM "Details",                     104
+        MENUITEM "Tiles",                     150, GRAYED
+        MENUITEM SEPARATOR
+        POPUP "Arrange symbols"
+        BEGIN
+            MENUITEM "Last name",                   151
+            MENUITEM "Last Typ",                    153
+            MENUITEM "By size",                  152
+        END
+        MENUITEM SEPARATOR			171
+        MENUITEM "Group view",		170, GRAYED
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Change designation\tF2",      105, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "Mark everything",             106
+        MENUITEM "Reverse marking",         107
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+1                       ICON    DISCARDABLE     "list.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+300			BITMAP	"sortbmp.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Manifest für die neuen List-View-Modi unter Win
+//
+
+1                       24      MOVEABLE PURE   "manifest.xml"
