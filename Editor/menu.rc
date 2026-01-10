@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+6000 MENU DISCARDABLE 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "New",                         6001
+        MENUITEM "Open",                      6002
+        MENUITEM "Save under ...",         6003
+        MENUITEM SEPARATOR
+        MENUITEM "End",                     6004
+    END
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Font",                  6005
+    END
+    POPUP "Search"
+    BEGIN
+        MENUITEM "Search",                      6006, GRAYED
+        MENUITEM "Substitute",                    6007, GRAYED
+    END
+
+END
