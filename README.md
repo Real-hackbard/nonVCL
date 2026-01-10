@@ -342,3 +342,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [IP-Address](https://github.com/Real-hackbard/nonVCL/tree/main/IP-Address)
 * [Bios Help](https://github.com/Real-hackbard/nonVCL/tree/main/Bios%20Info)
 * [ListView](https://github.com/Real-hackbard/nonVCL/tree/main/Listview)
+* [Editor](https://github.com/Real-hackbard/nonVCL/tree/main/Editor)
