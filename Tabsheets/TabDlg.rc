@@ -1,0 +1,37 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  0, 0, 250, 205
+STYLE DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Tabsheet-Demo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Button1",102,170,175,70,20
+    CONTROL         "TabSheet1",101,"SysTabControl32",WS_TABSTOP,4,4,242,159
+END
+
+200 DIALOG DISCARDABLE  0, 0, 145, 95
+STYLE DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        201,10,15,115,12,ES_AUTOHSCROLL
+    EDITTEXT        202,10,35,115,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Button1",203,60,60,65,20
+END
+
+300 DIALOG DISCARDABLE  0, 0, 153, 85
+STYLE DS_CONTROL | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",301,5,5,50,14
+    PUSHBUTTON      "Abort",302,5,22,50,14
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Manifest für die neuen List-View-Modi unter Win
+//
+
+1                       24      MOVEABLE PURE   "manifest.xml"
