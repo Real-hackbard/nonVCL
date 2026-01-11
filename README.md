@@ -343,3 +343,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Bios Help](https://github.com/Real-hackbard/nonVCL/tree/main/Bios%20Info)
 * [ListView](https://github.com/Real-hackbard/nonVCL/tree/main/Listview)
 * [Editor](https://github.com/Real-hackbard/nonVCL/tree/main/Editor)
+* [TabSheets](https://github.com/Real-hackbard/nonVCL/tree/main/Tabsheets)
