@@ -344,3 +344,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [ListView](https://github.com/Real-hackbard/nonVCL/tree/main/Listview)
 * [Editor](https://github.com/Real-hackbard/nonVCL/tree/main/Editor)
 * [TabSheets](https://github.com/Real-hackbard/nonVCL/tree/main/Tabsheets)
+* [Print](https://github.com/Real-hackbard/nonVCL/tree/main/Print)
