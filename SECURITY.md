@@ -35,6 +35,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Listview | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Editor | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Tabsheets | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Print | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
