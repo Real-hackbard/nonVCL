@@ -346,3 +346,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [TabSheets](https://github.com/Real-hackbard/nonVCL/tree/main/Tabsheets)
 * [Print](https://github.com/Real-hackbard/nonVCL/tree/main/Print)
 * [TreeView](https://github.com/Real-hackbard/nonVCL/tree/main/Treeview)
+* [Progress Status](https://github.com/Real-hackbard/nonVCL/tree/main/Progress%20Status)
