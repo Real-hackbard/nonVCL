@@ -347,3 +347,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Print](https://github.com/Real-hackbard/nonVCL/tree/main/Print)
 * [TreeView](https://github.com/Real-hackbard/nonVCL/tree/main/Treeview)
 * [Progress Status](https://github.com/Real-hackbard/nonVCL/tree/main/Progress%20Status)
+* [String Encrypter](https://github.com/Real-hackbard/nonVCL/tree/main/String%20Encrypter)
