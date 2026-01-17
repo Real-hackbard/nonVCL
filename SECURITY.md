@@ -41,6 +41,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: String Encrypter | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Trackbar | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: File Splitter | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Threadpool | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
