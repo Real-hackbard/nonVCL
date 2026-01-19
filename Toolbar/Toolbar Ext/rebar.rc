@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+100 MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Close",                    110
+    END
+    POPUP "Band"
+    BEGIN
+        MENUITEM "Band 1 minimize",           120
+        MENUITEM "Band 1 maximize",           121
+        MENUITEM SEPARATOR
+        MENUITEM "minimize real Band 1",    122
+        MENUITEM "Maximize true Volume 1",    123
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "manifest.xml"
