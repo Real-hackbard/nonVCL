@@ -352,3 +352,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [File Splitter](https://github.com/Real-hackbard/nonVCL/tree/main/FileSplitter)
 * [Threadpool](https://github.com/Real-hackbard/nonVCL/tree/main/Threadpool)
 * [Tooltips](https://github.com/Real-hackbard/nonVCL/tree/main/Tooltipps)
+* [Toolbar](https://github.com/Real-hackbard/nonVCL/tree/main/Toolbar)
