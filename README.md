@@ -353,3 +353,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Threadpool](https://github.com/Real-hackbard/nonVCL/tree/main/Threadpool)
 * [Tooltips](https://github.com/Real-hackbard/nonVCL/tree/main/Tooltipps)
 * [Toolbar](https://github.com/Real-hackbard/nonVCL/tree/main/Toolbar)
+* [RC-Scripting](https://github.com/Real-hackbard/nonVCL/tree/main/RC-Scripting)
