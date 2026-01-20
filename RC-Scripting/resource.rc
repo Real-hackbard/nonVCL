@@ -1,0 +1,83 @@
+////////////
+// Hauptdialog
+100 DIALOG 0, 0, 250, 194
+STYLE WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_MAXIMIZEBOX | WS_MINIMIZEBOX | DS_NOFAILCREATE | DS_CENTER
+CAPTION "Ressourcenskripts"
+MENU 200
+FONT 8, "MS Sans Serif"
+{
+  LTEXT "Please click right", 101, 120, 3, 85, 10
+  LTEXT "", 102, 0, 0, 110, 194, SS_BITMAP | SS_REALSIZEIMAGE
+  GROUPBOX "", 103, 120, 13, 120, 31
+  LTEXT " ", 104, 123, 20, 100, 10
+  LTEXT " ", 105, 123, 30, 85, 10
+
+  GROUPBOX "RCDATA-Daten", 106, 120, 54, 120, 45
+  LTEXT " ", 107, 123, 64, 100, 10
+  LTEXT " ", 108, 123, 74, 100, 10
+  LTEXT " ", 109, 123, 84, 100, 10
+}
+
+
+////////////
+// About-Box
+150 DIALOG DISCARDABLE  0, 0, 200, 100
+STYLE DS_NOFAILCREATE | DS_CENTER | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Resource Script Tutorial Sample Program",151,5,
+                    10,180,10
+    PUSHBUTTON      "OK",152,80,80,40,15
+    LTEXT           "",153,19,28,167,8
+    LTEXT           "",154,19,39,167,8
+END
+
+
+
+
+////////////
+// Hauptmenü
+200 MENU
+{
+  POPUP "&File"
+  {
+    MENUITEM "&Close", 201
+  }
+  MENUITEM "&About", 202
+}
+
+
+////////////
+// Kontextmenü
+300 MENU
+{
+  POPUP "Context"
+  {
+    MENUITEM "Hello, world", 301
+    MENUITEM "Close", 201
+  }
+}
+
+
+////////////
+// Stringtable
+STRINGTABLE
+{
+  400 "A string from a string table"
+  401 "And another one"
+}
+
+
+////////////
+// Bilder und binäre Ressourcen
+1100 BITMAP "01_Über_Auge_sw.bmp"
+1101 ICON "picture.ico"
+
+1102 RCDATA
+{
+  123
+  1234L
+  "String\0" // 11 Zeichen
+}
