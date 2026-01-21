@@ -45,6 +45,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Tooltips | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Toolbar | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: RC-Scripting | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: GDI Drawing | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
