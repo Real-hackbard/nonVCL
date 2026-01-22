@@ -355,3 +355,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Toolbar](https://github.com/Real-hackbard/nonVCL/tree/main/Toolbar)
 * [RC-Scripting](https://github.com/Real-hackbard/nonVCL/tree/main/RC-Scripting)
 * [GDI Drawing](https://github.com/Real-hackbard/nonVCL/tree/main/GDI%20Drawing)
+* [EXE-PE Properties](https://github.com/Real-hackbard/nonVCL/tree/main/EXE-PE%20Properties)
