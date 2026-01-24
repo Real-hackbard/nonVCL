@@ -1,0 +1,28 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  0, 0, 296, 159
+STYLE DS_NOFAILCREATE | DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "INI-Save Demo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        110,12,15,168,49,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Place of residence:",IDC_STATIC,12,36,45,8
+    EDITTEXT        120,69,33,110,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Age",IDC_STATIC,12,52,45,8
+    EDITTEXT        130,69,49,110,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Name:",IDC_STATIC,12,79,45,8
+    EDITTEXT        140,69,76,110,14,ES_AUTOHSCROLL
+    LTEXT           "Place of residence:",IDC_STATIC,12,95,45,8
+    EDITTEXT        150,69,92,110,14,ES_AUTOHSCROLL
+    LTEXT           "Age:",IDC_STATIC,12,111,45,8
+    EDITTEXT        160,69,108,110,14,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Register",170,12,134,55,14,WS_DISABLED
+    PUSHBUTTON      "Content of ""names""",180,193,15,90,14
+    PUSHBUTTON      "show all sections",190,193,31,90,14
+    PUSHBUTTON      "Name delete",200,193,49,90,14,WS_DISABLED
+END
