@@ -359,3 +359,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [TaskbarIcon](https://github.com/Real-hackbard/nonVCL/tree/main/TaskbarIcon)
 * [INI Files Save](https://github.com/Real-hackbard/nonVCL/tree/main/INI-Files%20Save)
 * [Splitter Example](https://github.com/Real-hackbard/nonVCL/tree/main/Splitter%20Example)
+* [Priority Process](https://github.com/Real-hackbard/nonVCL/tree/main/Priority%20Process)
