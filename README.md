@@ -361,3 +361,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Splitter Example](https://github.com/Real-hackbard/nonVCL/tree/main/Splitter%20Example)
 * [Priority Process](https://github.com/Real-hackbard/nonVCL/tree/main/Priority%20Process)
 * [Plasma Graphic](https://github.com/Real-hackbard/nonVCL/tree/main/Plasma%20Graphic)
+* [PE-Optimzer](https://github.com/Real-hackbard/nonVCL/tree/main/PE-Optimizer)
