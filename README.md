@@ -362,3 +362,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Priority Process](https://github.com/Real-hackbard/nonVCL/tree/main/Priority%20Process)
 * [Plasma Graphic](https://github.com/Real-hackbard/nonVCL/tree/main/Plasma%20Graphic)
 * [PE-Optimzer](https://github.com/Real-hackbard/nonVCL/tree/main/PE-Optimizer)
+* [Digital Clock](https://github.com/Real-hackbard/nonVCL/tree/main/Digital%20Clock)
