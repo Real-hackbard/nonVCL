@@ -363,3 +363,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Plasma Graphic](https://github.com/Real-hackbard/nonVCL/tree/main/Plasma%20Graphic)
 * [PE-Optimzer](https://github.com/Real-hackbard/nonVCL/tree/main/PE-Optimizer)
 * [Digital Clock](https://github.com/Real-hackbard/nonVCL/tree/main/Digital%20Clock)
+* [Opera Favorite Wizard](https://github.com/Real-hackbard/nonVCL/tree/main/Opera%20Favorites%20Wizard)
