@@ -1,0 +1,106 @@
+#define PBS_SMOOTH              0x01
+#define DS_SHELLFONT		(DS_SETFONT | DS_FIXEDSYS)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  0, 0, 317, 143
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | DS_SHELLFONT
+CAPTION "Welcome to the Favorites Conversion Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Welcome",110,114,9,203,31
+    LTEXT           "The Favorites Conversion Wizard allows you to convert Internet Explorer favorites for use in Opera.\n\nClick on ""Next"", to continue the process, or on ""Cancel"", to end the assistant.",
+                    IDC_STATIC,114,45,203,100
+END
+
+200 DIALOG DISCARDABLE  0, 0, 317, 143
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | DS_SHELLFONT
+CAPTION "Favorites Conversion Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please select the Opera version for which you want to convert your favorites..",
+                    IDC_STATIC,21,9,296,24
+    CONTROL         "Opera 3",210,"Button",BS_AUTORADIOBUTTON | WS_GROUP,21,
+                    41,296,10
+    CONTROL         "Opera 3.5x",211,"Button",BS_AUTORADIOBUTTON,21,52,296,
+                    10
+    CONTROL         "Opera 5",212,"Button",BS_AUTORADIOBUTTON,21,62,296,10
+    CONTROL         "Opera 6/7",213,"Button",BS_AUTORADIOBUTTON,21,73,296,10
+END
+
+300 DIALOG DISCARDABLE  0, 0, 317, 143
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | DS_SHELLFONT
+CAPTION "Favorites Conversion Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Please specify where the converted favorites should be saved.",
+                    IDC_STATIC,21,9,296,16
+    LTEXT           "The file name was determined by the wizard, taking into account the Opera version you selected.",
+                    IDC_STATIC,21,28,296,27
+    EDITTEXT        310,21,69,219,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "...",320,244,69,14,14
+END
+
+400 DIALOG DISCARDABLE  0, 0, 317, 193
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | DS_SHELLFONT
+CAPTION "Completing the Favorites Conversion Wizard"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Completing the Favorites Conversion Wizard",
+                    410,114,9,203,31
+    LTEXT           "The work with the favorites conversion assistant is finished.\n\nClick on ""Finish"", to convert your favorites for your selected Opera version. Depending on the number of favorites, this may take a few moments.",
+                    IDC_STATIC,114,47,203,83
+END
+
+500 DIALOGEX 0, 0, 267, 71
+STYLE WS_VISIBLE | WS_CAPTION | DS_SHELLFONT
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "search ..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Static",510,10,10,247,20
+    CONTROL         "Progress1",511,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,10,33,247,16
+END
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+1000                    BITMAP  DISCARDABLE     "IE-wizard-3.bmp"
+1010                    BITMAP  DISCARDABLE     "IE-header-2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+1                       ICON    DISCARDABLE     "Opera.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "manifest.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    2000                    "Opera-Version"
+    2001                    "Please select the Opera version."
+    2010                    "Specify target folder"
+    2011                    "Please select the destination folder."
+END

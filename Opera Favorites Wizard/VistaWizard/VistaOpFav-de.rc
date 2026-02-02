@@ -1,0 +1,62 @@
+#define DS_SHELLFONT		(DS_SETFONT | DS_FIXEDSYS)
+#define BS_COMMANDLINK		0x0000000E
+#define BS_DEFCOMMANDLINK	0x0000000F
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+200 DIALOGEX DISCARDABLE  0, 0, 317, 163
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | DS_SHELLFONT
+CAPTION "Selecting the Opera version"
+FONT 8, "MS Shell Dlg"
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+BEGIN
+    LTEXT           "This wizard converts your Internet Explorer favorites for the Opera browser. Please select the Opera version you are using.",
+                    IDC_STATIC,0,0,300,24
+    CONTROL         "Opera 3",210,"Button",BS_COMMANDLINK,0,30,300,25
+    CONTROL         "Opera 3.5x",211,"Button",BS_COMMANDLINK,0,57,300,25
+    CONTROL         "Opera 5",212,"Button",BS_COMMANDLINK,0,85,300,25
+    CONTROL         "Opera 6 und 7",213,"Button",BS_DEFCOMMANDLINK,0,112,300,25
+END
+
+300 DIALOGEX DISCARDABLE  0, 0, 317, 163
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | DS_SHELLFONT
+CAPTION "Selecting the target folder"
+FONT 8, "MS Shell Dlg"
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+BEGIN
+    LTEXT           "Please select the destination folder for the converted favorites. The filename will be determined by the wizard and will depend on your chosen Opera version.",
+                    IDC_STATIC,0,0,300,30
+    EDITTEXT        310,0,40,270,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "...",320,286,40,14,14
+END
+
+400 DIALOGEX DISCARDABLE  0, 0, 317, 163
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | DS_SHELLFONT
+CAPTION "Start conversion"
+FONT 8, "MS Shell Dlg"
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+BEGIN
+    LTEXT           "Please wait while your Internet Explorer favorites are converted. Depending on the number of favorites, this process may take some time. Click Convert to begin.",
+                    IDC_STATIC,0,0,300,30
+    LTEXT           "",420,0,54,300,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE
+LANGUAGE LANG_GERMAN, SUBLANG_NEUTRAL
+BEGIN
+	2000		"Favorites Conversion Wizard"
+	2001		"This program only runs on Windows Vista."
+	2002		"Next"
+	2003		"Convert"
+	2004		"Select destination folder"
+END
