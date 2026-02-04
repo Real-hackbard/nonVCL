@@ -55,6 +55,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: PE-Optimizer | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Digital Clock | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Opera Favorites Wizard | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Bass Player | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
