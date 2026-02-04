@@ -364,3 +364,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [PE-Optimzer](https://github.com/Real-hackbard/nonVCL/tree/main/PE-Optimizer)
 * [Digital Clock](https://github.com/Real-hackbard/nonVCL/tree/main/Digital%20Clock)
 * [Opera Favorite Wizard](https://github.com/Real-hackbard/nonVCL/tree/main/Opera%20Favorites%20Wizard)
+* [Bass Player](https://github.com/Real-hackbard/nonVCL/tree/main/Bass%20Player)
