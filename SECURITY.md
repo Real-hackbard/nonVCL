@@ -58,6 +58,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Bass Player | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Opera Favorites Wizard | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: TV No Signal | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: SDK Sample | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
