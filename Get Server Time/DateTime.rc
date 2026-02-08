@@ -1,0 +1,26 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOG DISCARDABLE  0, 0, 205, 181
+STYLE DS_NOFAILCREATE | DS_CENTER | WS_MINIMIZEBOX | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Get Server Time"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "local time:",-1,16,16,40,8
+    EDITTEXT        110,67,13,115,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "UTC-Time:",-1,16,32,40,8
+    EDITTEXT        111,67,29,115,14,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Date:",-1,16,48,40,8
+    EDITTEXT        112,67,45,115,14,ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "Country settings",120,16,65,95,14
+    EDITTEXT        131,67,116,115,14,ES_AUTOHSCROLL | ES_READONLY
+    COMBOBOX        130,16,94,167,83,CBS_DROPDOWNLIST | WS_DISABLED | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Server time:",-1,16,119,34,8
+    EDITTEXT        132,67,132,115,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Server date:",-1,16,135,43,8
+    PUSHBUTTON      "Get time from server",133,16,156,95,14,WS_DISABLED
+END
