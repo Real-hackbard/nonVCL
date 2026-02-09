@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+1000 ACCELERATORS DISCARDABLE 
+BEGIN
+    "S",            1001,                   VIRTKEY, CONTROL
+    "S",            1002,                   VIRTKEY, ALT
+END
