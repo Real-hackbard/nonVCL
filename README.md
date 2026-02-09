@@ -369,3 +369,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [TV No Signal](https://github.com/Real-hackbard/nonVCL/tree/main/TV%20No%20Signal)
 * [SDK Sample](https://github.com/Real-hackbard/nonVCL/tree/main/SDK%20Sample)
 * [Get Server Time](https://github.com/Real-hackbard/nonVCL/tree/main/Get%20Server%20Time)
+* [Hotkeys](https://github.com/Real-hackbard/nonVCL/tree/main/Hotkeys)
