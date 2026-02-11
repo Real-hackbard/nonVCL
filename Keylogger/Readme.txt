@@ -1,0 +1,2 @@
+- First open KBHook.dpr file and compile KBHook.dll
+- After then open Keylogger.dpr
