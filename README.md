@@ -370,3 +370,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [SDK Sample](https://github.com/Real-hackbard/nonVCL/tree/main/SDK%20Sample)
 * [Get Server Time](https://github.com/Real-hackbard/nonVCL/tree/main/Get%20Server%20Time)
 * [Hotkeys](https://github.com/Real-hackbard/nonVCL/tree/main/Hotkeys)
+* [Keylogger](https://github.com/Real-hackbard/nonVCL/tree/main/Keylogger)
