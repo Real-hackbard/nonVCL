@@ -1,0 +1,45 @@
+#define DS_SHELLFONT 0
+#define MANIFEST 24
+#define IDD_MAIN_DLG 100
+#define IDC_STC1 106
+#define IDC_EDT1 101
+#define IDC_STC2 105
+#define IDC_STC3 104
+#define IDC_STC_RESULT 103
+#define IDC_BTN_START 102
+IDD_MAIN_DLG DIALOGEX 6,5,191,59
+CAPTION "IDD_DLG"
+FONT 8,"Tahoma"
+STYLE 0x10CC0840
+EXSTYLE 0x00000000
+BEGIN
+  CONTROL "Calculates the sum of the numbers 0 up to the specified final value.",IDC_STC1,"Static",0x50000000,4,1,186,17,0x00000000
+  CONTROL "",IDC_EDT1,"Edit",0x50010000,38,24,66,13,0x00000200
+  CONTROL "Final value:",IDC_STC2,"Static",0x50000000,4,25,32,9,0x00000000
+  CONTROL "Result:",IDC_STC3,"Static",0x50000000,4,44,32,9,0x00000000
+  CONTROL "",IDC_STC_RESULT,"Static",0x50001202,38,42,66,13,0x00000000
+  CONTROL "&Calculate",IDC_BTN_START,"Button",0x50010001,122,22,54,17,0x00000000
+END
+1 MANIFEST DISCARDABLE "manifest.xml"
+IDR_VERSION VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x00000004
+FILETYPE 0x00000001
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040704B0"
+    BEGIN
+      VALUE "FileVersion", "1, 0, 0, 0\0"
+      VALUE "FileDescription", "Stackoverflo Demo\0"
+      VALUE "LegalCopyright", "Your Namne\0"
+      VALUE "ProductName", "Stackoverflo Demo\0"
+      VALUE "ProductVersion", "1.0.0.0\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0407, 0x04B0
+  END
+END
