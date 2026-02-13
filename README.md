@@ -372,3 +372,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Hotkeys](https://github.com/Real-hackbard/nonVCL/tree/main/Hotkeys)
 * [Keylogger](https://github.com/Real-hackbard/nonVCL/tree/main/Keylogger)
 * [Stack Overflow](https://github.com/Real-hackbard/nonVCL/tree/main/Stack%20Overflow)
+* [Timer](https://github.com/Real-hackbard/nonVCL/tree/main/Timer)
