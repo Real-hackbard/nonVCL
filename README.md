@@ -373,3 +373,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Keylogger](https://github.com/Real-hackbard/nonVCL/tree/main/Keylogger)
 * [Stack Overflow](https://github.com/Real-hackbard/nonVCL/tree/main/Stack%20Overflow)
 * [Timer](https://github.com/Real-hackbard/nonVCL/tree/main/Timer)
+* [Registry Uninstall](https://github.com/Real-hackbard/nonVCL/tree/main/Registry%20Uninstall)
