@@ -1,0 +1,79 @@
+//
+// Bitmap
+//
+300                    BITMAP  MOVEABLE PURE   "tbimg.bmp"
+
+//
+// Win Manifest
+//
+1 24 "manifest.xml"
+
+//
+// version
+//
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,175
+ PRODUCTVERSION 1,4,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x10004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "Cube\0"
+            VALUE "FileDescription", "Uninstaller\0"
+            VALUE "FileVersion", "1.0.0.0\0"
+            VALUE "InternalName", "Uninstaller\0"
+            VALUE "LegalCopyright", "Copyright © Your Name\0"
+            VALUE "OriginalFilename", "Uninstaller.dpr\0"
+            VALUE "ProductName", "Registry\0"
+            VALUE "ProductVersion", "1,0,0,0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+
+//
+// Progress-Dialog
+//
+100 DIALOGEX 0, 0, 226, 55
+STYLE DS_CENTER | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "wait ..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "action",110,18,11,190,8
+    LTEXT           "progress",120,18,21,190,8
+    CONTROL         "Progress1",130,"msctls_progress32",WS_BORDER,18,34,190,
+                    8
+END
+
+
+//
+// Eingabe-Dialog
+//
+200 DIALOGEX 0, 0, 276, 76
+STYLE DS_NOFAILCREATE | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "edit ..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Displayname:",IDC_STATIC,12,12,47,8
+    LTEXT           "Displayname (&Quiet):",IDC_STATIC,12,30,66,8
+    EDITTEXT        210,84,9,175,14,ES_AUTOHSCROLL
+    EDITTEXT        220,84,27,175,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",230,146,52,55,14
+    PUSHBUTTON      "Cancel",240,204,52,55,14
+END
