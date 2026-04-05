@@ -71,6 +71,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Combobox & ComboBoxEx | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Server DateTime | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Dialog Resource | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Edit Examples | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
