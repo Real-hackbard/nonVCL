@@ -380,3 +380,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Combobox & ComboBoxEx](https://github.com/Real-hackbard/nonVCL/tree/main/Combobox%20%26%20ComboBoxEx)
 * [Server DateTime](https://github.com/Real-hackbard/nonVCL/tree/main/Server%20DateTime)
 * [Dialog Resource](https://github.com/Real-hackbard/nonVCL/tree/main/Dialog%20Resource)
+* [Edit Examples](https://github.com/Real-hackbard/nonVCL/tree/main/Edit%20Examples)
