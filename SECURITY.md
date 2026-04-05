@@ -68,6 +68,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: CheckBox & Radiobutton | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Listbox | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Press Button | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Combobox & ComboBoxEx | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
