@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+100 DIALOGEX 0, 0, 162, 95
+STYLE DS_3DLOOK | DS_NOFAILCREATE | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_MAXIMIZEBOX | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Working with Dialogue Resources"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Hello",101,38,5,85,20,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "World",102,38,35,85,20,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "&Label",103,5,70,70,20,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "&Close",104,85,70,70,20,0,WS_EX_CLIENTEDGE
+END
