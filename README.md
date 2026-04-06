@@ -376,3 +376,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Dialog Resource](https://github.com/Real-hackbard/nonVCL/tree/main/Dialog%20Resource)
 * [Edit Examples](https://github.com/Real-hackbard/nonVCL/tree/main/Edit%20Examples)
 * [Calling conventions DLL](https://github.com/Real-hackbard/nonVCL/tree/main/Calling%20conventions%20DLL)
+* [Main Menu](https://github.com/Real-hackbard/nonVCL/tree/main/Main%20Menu)
