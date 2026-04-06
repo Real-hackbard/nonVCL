@@ -1,0 +1,169 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+// #include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 287, 193
+STYLE DS_SYSMODAL | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Calling conventions and DLLs"
+FONT 8, "Arial"
+BEGIN
+    GROUPBOX        "caller handed over",IDC_STATIC,3,3,138,76,BS_LEFT | 
+                    BS_FLAT
+    LTEXT           "Param1",IDC_STATIC,13,17,25,8
+    LTEXT           "Param2",IDC_STATIC,13,32,25,8
+    LTEXT           "Param3",IDC_STATIC,13,47,25,8
+    LTEXT           "hWnd",IDC_STATIC,13,65,20,8
+    EDITTEXT        IDC_EDIT1,46,15,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2,46,30,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3,46,45,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7,46,63,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "received function",IDC_STATIC,146,3,138,76,BS_RIGHT | 
+                    BS_FLAT
+    LTEXT           "Param1",IDC_STATIC,153,17,25,8
+    LTEXT           "Param2",IDC_STATIC,153,32,25,8
+    LTEXT           "Param3",IDC_STATIC,153,47,25,8
+    LTEXT           "hWnd",IDC_STATIC,153,65,20,8
+    EDITTEXT        IDC_EDIT8,186,15,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9,186,30,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT10,186,45,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT14,186,63,81,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    LTEXT           "Default values ??of the parameters:\nParameter 1 = 1\nParameter 2 = 2\nParameter 3 = 3",
+                    IDC_STATIC,3,78,138,32
+    LTEXT           "This program may crash because it plays with calling conventions. BACKUP DATA BEFORE!!!",
+                    IDC_STATIC,146,80,138,26
+    GROUPBOX        "Call function [convention declaration <-> call]",
+                    IDC_STATIC,3,109,281,67,BS_CENTER | BS_FLAT
+    PUSHBUTTON      "PASCAL <-> PASCAL",IDC_BUTTON1,10,124,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "CDECL <-> CDECL",IDC_BUTTON2,10,140,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "STDCALL <-> STDCALL",IDC_BUTTON3,10,156,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "PASCAL <-> CDECL",IDC_BUTTON4,101,124,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "CDECL <-> PASCAL",IDC_BUTTON5,101,140,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "STDCALL <-> PASCAL",IDC_BUTTON6,101,156,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "PASCAL <-> STDCALL",IDC_BUTTON7,192,124,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "CDECL <-> STDCALL",IDC_BUTTON8,192,140,86,14,0,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "STDCALL <-> CDECL",IDC_BUTTON9,192,156,86,14,0,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Called function:",IDC_STATIC,3,180,72,8
+    EDITTEXT        IDC_EDIT15,82,178,202,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER | NOT WS_TABSTOP,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC,"Static",SS_WHITEFRAME,6,121,93,52
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 284
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 190
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "window.ico"
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
