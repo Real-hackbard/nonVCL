@@ -1,0 +1,16 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    1                       "The first menu entry"
+    2                       "The second menu entry"
+    3                       "The third menu entry"
+    4                       "Menu item #4"
+    5                       "And of course - the fifth entry"
+    6                       "Item 1 activate"
+    7                       "Item 1 deactivate"
+    8                       "End program"
+END

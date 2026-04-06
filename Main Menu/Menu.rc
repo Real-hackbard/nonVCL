@@ -1,0 +1,19 @@
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+200 MENU DISCARDABLE 
+BEGIN
+    POPUP "Menü 1"
+    BEGIN
+        MENUITEM "Item 1",                      1
+        MENUITEM "Item 2",                      2
+        MENUITEM "Item 3",                      3
+    END
+    POPUP "Menü &2"
+    BEGIN
+        MENUITEM "Item 4",                      4
+        MENUITEM "Item 5",                      5
+    END
+END
