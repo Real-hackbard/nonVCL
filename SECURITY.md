@@ -73,6 +73,7 @@ currently being supported with security updates.
 | 1.0.x   | :white_check_mark: Dialog Resource | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Edit Examples | Delphi 7 Pro. |
 | 1.0.x   | :white_check_mark: Calling conventions DLL | Delphi 7 Pro. |
+| 1.0.x   | :white_check_mark: Main Menu | Delphi 7 Pro. |
 
 ## Reporting a Vulnerability
 
