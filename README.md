@@ -377,3 +377,4 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 * [Edit Examples](https://github.com/Real-hackbard/nonVCL/tree/main/Edit%20Examples)
 * [Calling conventions DLL](https://github.com/Real-hackbard/nonVCL/tree/main/Calling%20conventions%20DLL)
 * [Main Menu](https://github.com/Real-hackbard/nonVCL/tree/main/Main%20Menu)
+* [PE Sniffer](https://github.com/Real-hackbard/nonVCL/tree/main/PE%20Sniffer)
